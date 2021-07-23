@@ -31,7 +31,8 @@ module1.modifyA();
 module1.printA();
 module1.modifyA();
 module1.printA();
-module1.a.a = 1;
+console.log(module1.a);
+module1.a.a = 5555;
 module1.a.b = {
     prop3: "dfgdsfgvbn"
 }
