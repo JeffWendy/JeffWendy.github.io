@@ -31,5 +31,6 @@ module1.modifyA();
 module1.printA();
 module1.modifyA();
 module1.printA();
-module1.a.b = 1;
+module1.a.a = 1;
+module1.a.b = 33
 console.log(module1.a);
