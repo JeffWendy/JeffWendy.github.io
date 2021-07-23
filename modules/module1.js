@@ -1,11 +1,14 @@
-let a = 1;
+let a = {
+    a: 1,
+    b: "abssdf"
+}
 
 function printA(){
-    console.log("module1: " + String(a));
+    console.log("module1: " + String(a.a));
 }
 
 function modifyA(){
-    ++a;
+    ++a.a;
 }
 
 export {a, printA, modifyA};
