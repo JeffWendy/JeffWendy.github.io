@@ -1,6 +1,9 @@
 let a = {
     a: 1,
-    b: "abssdf"
+    b: {
+        prop1: "b.prop1",
+        prop2: "b.prop2",
+    }
 }
 
 function printA(){
