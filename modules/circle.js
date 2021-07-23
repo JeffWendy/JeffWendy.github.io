@@ -7,7 +7,7 @@ function degToRad(degrees) {
 function draw(ctx, radius, x, y, color) {
   ctx.fillStyle = color;
   ctx.beginPath();
-  ctx.arc(x, y, radius, degToRad(0), degToRad(360), false);
+  ctx.arc(x, y, radius, degToRad(0), degToRad(60), false);
   ctx.fill();
 
   return {
