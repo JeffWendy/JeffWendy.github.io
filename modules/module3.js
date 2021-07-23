@@ -1,4 +1,4 @@
-let a = 11;
+let a = 111;
 
 function printA(){
     console.log("module1: " + String(a));
