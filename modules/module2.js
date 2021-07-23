@@ -1,11 +1,6 @@
-let a = 11;
+import * as module1 from "./module1.js"
 
-function printA(){
-    console.log("module1: " + String(a));
-}
+module1.modifyA()
+module1.printA()
 
-function modifyA(){
-    ++a;
-}
-
-export {a, printA, modifyA};
+export * from "./module1.js"
