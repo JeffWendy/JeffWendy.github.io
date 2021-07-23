@@ -32,5 +32,7 @@ module1.printA();
 module1.modifyA();
 module1.printA();
 module1.a.a = 1;
-module1.a.b = "3333333333333333"
+module1.a.b = {
+    prop3: "dfgdsfgvbn"
+}
 console.log(module1.a);
