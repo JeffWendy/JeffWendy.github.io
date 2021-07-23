@@ -31,4 +31,5 @@ module1.modifyA();
 module1.printA();
 module1.modifyA();
 module1.printA();
-module1.a = 44;
+module1.a.b = 1;
+console.log(module1.a);
