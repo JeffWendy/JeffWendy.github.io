@@ -22,7 +22,7 @@ let circle1 = Circle.draw(myCanvas.ctx, 75, 200, 100, 'green');
 Circle.reportArea(circle1.radius, reportList);
 Circle.reportPerimeter(circle1.radius, reportList);
 
-//
+//dev
 // draw a triangle
 let triangle1 = Triangle.draw(myCanvas.ctx, 100, 75, 190, 'yellow');
 Triangle.reportArea(triangle1.length, reportList);
